@@ -1,0 +1,73 @@
+cp5
+
+#include <stdio.h>
+int main()
+
+{
+    int a,b,sum;
+    printf("Enter a value of a and b \n");
+    scanf("%d%d",&a,&b);
+    sum= a+b;
+    printf("Sum of a and b is %d\n",sum);
+    if (sum>20)
+    {
+        printf("Sum is greater than 20 \n");
+    }
+    else if(sum>10)
+    {
+        printf("Sum is greater than 10 and less than 20 \n");
+    }
+
+    return 0;
+}
+
+assignment :1
+
+#include <stdio.h>
+void main()
+{
+    int a,b;
+    printf("enter 2 numbers\n");
+    scanf("%d%d",&a,&b);
+    if(a>b)
+    {
+        printf("the greater no is %d\n",a);
+    }
+    else
+    {
+        printf("the greater no is %d\n",b); 
+    }
+}
+  
+Assignment 2
+
+#include <stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("enter 3 numbers\n");
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
+    {
+        if(a>c)
+        {
+             printf("the greater no is %d\n",a);
+        }
+        else
+        {
+             printf("the greater no is %d\n",c);
+        }
+    }
+    
+    else
+    {
+        if(b>c)
+        {
+        printf("the greater no is %d\n",b); 
+        }
+        else
+        {
+             printf("the greater no is %d\n",c);
+        }
+    }
+}
