@@ -1,0 +1,66 @@
+cp6
+
+#include <stdio.h>
+int main()
+
+{
+    int x,y;
+    printf("enter a number between 0 to 39:");
+    scanf("%d", &y);
+   if (y/10 ==0)
+    {
+        printf("you have entered the number in the range of 0 to 9 \n");
+    }
+    else if (y/10 ==1)
+    {
+        printf("you have entered the number in the range of 10 to 19 \n");
+    }
+      else if (y/10 ==2)
+    {
+        printf("you have entered the number in the range of 20 to 29 \n");
+    }
+       else if (y/10 ==3)
+    {
+        printf("you have entered the number in the range of 30 to 39 \n");
+    }
+       else
+    {
+        printf("number not in range \n");
+    }
+    return 0;
+}
+
+Assignment 6
+
+#include <stdio.h>
+void main()
+
+{
+    int x,y;
+    printf("enter a number between 20 to 60\n");
+    scanf("%d", &y);
+   if (y/10 ==2)
+    {
+        printf("you have entered the number in the range of 20 to 29 \n");
+    }
+    else if (y/10 ==3)
+    {
+        printf("you have entered the number in the range of 30 to 40  \n");
+    }
+      else if (y/10 ==4)
+    {
+        printf("you have entered the number in the range of 40 tp 49 \n");
+    }
+       else if (y/10 ==5)
+    {
+        printf("you have entered the number in the range of 50 to 59 \n");
+    }
+       else if (y==60)
+    {
+        printf("you have entered the number 60\n");
+    }
+       else 
+       {
+           printf("the number you have entered is not in range\n");
+       }
+}
