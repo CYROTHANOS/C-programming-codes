@@ -1,0 +1,15 @@
+//string
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char strname[30];
+    printf("Enter the string\n");
+    scanf("%[^\n]s",strname);
+    printf("The string is %s\n",strname);
+}
+
+OUTPUT:
+Enter the string
+Talk to teacher
+The string is Talk to teacher
